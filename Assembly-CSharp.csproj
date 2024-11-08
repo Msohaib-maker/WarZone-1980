@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\RayGun.cs" />
     <Compile Include="Assets\SimpleGridShader\DistanceScaling.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
+    <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
     <Compile Include="Assets\Scripts\CamMove.cs" />
     <Compile Include="Assets\Scripts\EnemyFollow.cs" />

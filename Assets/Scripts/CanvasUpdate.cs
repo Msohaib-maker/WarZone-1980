@@ -11,13 +11,14 @@ public class CanvasUpdate : MonoBehaviour
     public float health = 100;
     public GameObject settingsPanel;
 
+    public Image Background;
+    public TMP_Text GameTitle;
+
     public static CanvasUpdate instance;
     public AudioSource explode_sound;
     public Image healthbar;
     public Image killbar;
     public Image Z_filler;
-    public Image OnVol, OffVol;
-    public Image play, pause;
 
     public Image WinBoard;
     public bool isWin = false;
@@ -64,6 +65,8 @@ public class CanvasUpdate : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             settingsPanel.SetActive(false);
+
+            Background.gameObject.SetActive(false);
             Time.timeScale = 1.0f;
         }
 
@@ -71,7 +74,6 @@ public class CanvasUpdate : MonoBehaviour
 
         ShieldActivate();
 
-        VolControl();
 
         PlayNext();
 
@@ -100,6 +102,8 @@ public class CanvasUpdate : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         settingsPanel.SetActive(false);
         Time.timeScale = 1.0f;
+        Background.gameObject.SetActive(false);
+        GameTitle.gameObject.SetActive(false);
     }
 
     public void SettingsMethod()
@@ -133,26 +137,7 @@ public class CanvasUpdate : MonoBehaviour
         }
     }
 
-    private void VolControl()
-    {
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            if (OnVol.IsActive())
-            {
-                OnVol.gameObject.SetActive(false);
-                OffVol.gameObject.SetActive(true);
-                GameMusic.Pause();
-                VolStatus = false;
-            }
-            else
-            {
-                OnVol.gameObject.SetActive(true);
-                OffVol.gameObject.SetActive(false);
-                GameMusic.Play();
-                VolStatus = true;
-            }
-        }
-    }
+    
 
     private void PlayNext()
     {
@@ -277,5 +262,26 @@ public class CanvasUpdate : MonoBehaviour
             explode_sound.Play();
         }
         
+    }
+
+    [Header("Panel")]
+    public GameObject SettingsPanel;
+
+    public void BackButton()
+    {
+        ToggleSettingsPanel(false);
+    }
+
+    public void SettingButton()
+    {
+        ToggleSettingsPanel(true);
+    }
+
+
+    void ToggleSettingsPanel(bool flag)
+    {
+        SettingsPanel.SetActive(flag);
+        settingsPanel.SetActive
+            (!flag);
     }
 }

@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Unity Projects\\Space Wars 2070\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\shaders\\skybox.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\scripts\\mainrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\scripts\\canvasupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canvasupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|c:\\unity projects\\space wars 2070\\assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|c:\\unity projects\\space wars 2070\\assets\\shaders\\skybox.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\skybox.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|c:\\unity projects\\space wars 2070\\assets\\volumetriclines\\builtinrenderpipeline\\examplescenes\\examplescripts\\shotbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\volumetriclines\\builtinrenderpipeline\\examplescenes\\examplescripts\\shotbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|solutionrelative:assets\\volumetriclines\\builtinrenderpipeline\\examplescenes\\examplescripts\\shotbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\scripts\\enemycreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\scripts\\canvasupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canvasupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\scripts\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\scripts\\mainrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD8AD667-7DBE-4C07-8A35-15A2FE56B9BB}|Assembly-CSharp.csproj|C:\\Unity Projects\\Space Wars 2070\\assets\\scripts\\crosshair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +58,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundManager.cs",
+              "ToolTip": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:32:23.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "GridShader.shader",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\SimpleGridShader\\GridShader.shader",
               "RelativeDocumentMoniker": "Assets\\SimpleGridShader\\GridShader.shader",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SkyBox.shader",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Shaders\\SkyBox.shader",
               "RelativeDocumentMoniker": "Assets\\Shaders\\SkyBox.shader",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "EnemyCreate.cs",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\EnemyCreate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyCreate.cs",
@@ -95,19 +112,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CanvasUpdate.cs",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\CanvasUpdate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CanvasUpdate.cs",
               "ToolTip": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\CanvasUpdate.cs",
               "RelativeToolTip": "Assets\\Scripts\\CanvasUpdate.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAIwGUAAAAeAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAgwGkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T12:54:26.728Z"
+              "WhenOpened": "2024-02-23T12:54:26.728Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "enemyBullet.cs",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\enemyBullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\enemyBullet.cs",
@@ -119,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "playerMove.cs",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\playerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\playerMove.cs",
@@ -131,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "EnemyFollow.cs",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\EnemyFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyFollow.cs",
@@ -143,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ShotBehavior.cs",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\VolumetricLines\\BuiltInRenderPipeline\\ExampleScenes\\ExampleScripts\\ShotBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\VolumetricLines\\BuiltInRenderPipeline\\ExampleScenes\\ExampleScripts\\ShotBehavior.cs",
@@ -151,12 +169,11 @@
               "RelativeToolTip": "Assets\\VolumetricLines\\BuiltInRenderPipeline\\ExampleScenes\\ExampleScripts\\ShotBehavior.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAYwDYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T17:18:08.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T17:18:08.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "RayGun.cs",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\RayGun.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RayGun.cs",
@@ -168,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Crosshair.cs",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\Crosshair.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Crosshair.cs",
@@ -180,15 +197,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "MainRot.cs",
               "DocumentMoniker": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\MainRot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainRot.cs",
               "ToolTip": "C:\\Unity Projects\\Space Wars 2070\\Assets\\Scripts\\MainRot.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainRot.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwCkAAAAAAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAIA+wGoAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T19:48:10.107Z"
+              "WhenOpened": "2024-02-23T19:48:10.107Z",
+              "EditorCaption": ""
             }
           ]
         }
