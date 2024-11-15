@@ -43,6 +43,10 @@ public class CanvasUpdate : MonoBehaviour
 
     public AudioSource GameMusic;
 
+    public GameObject InGameUI;
+
+    public AudioClip LaserSFX, ExplodeSFX;
+
     private void Awake()
     {
         Time.timeScale = 0f;
@@ -68,6 +72,7 @@ public class CanvasUpdate : MonoBehaviour
 
             Background.gameObject.SetActive(false);
             Time.timeScale = 1.0f;
+            InGameUI.SetActive(true);
         }
 
         GameQuit();
@@ -104,6 +109,7 @@ public class CanvasUpdate : MonoBehaviour
         Time.timeScale = 1.0f;
         Background.gameObject.SetActive(false);
         GameTitle.gameObject.SetActive(false);
+        InGameUI.SetActive(true);
     }
 
     public void SettingsMethod()
@@ -259,9 +265,19 @@ public class CanvasUpdate : MonoBehaviour
     {
         if (VolStatus)
         {
+            explode_sound.clip = ExplodeSFX;
             explode_sound.Play();
         }
         
+    }
+
+    public void laserShot()
+    {
+        if (VolStatus)
+        {
+            explode_sound.clip = LaserSFX;
+            explode_sound.Play();
+        }
     }
 
     [Header("Panel")]

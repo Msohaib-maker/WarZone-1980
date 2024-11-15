@@ -17,6 +17,8 @@ public class RayGun : MonoBehaviour
     public int poolSize = 20;
     public float Duration = 10;
 
+    
+
     private void Start()
     {
         // Pre-instantiate laser objects and store them in the pool
@@ -40,6 +42,7 @@ public class RayGun : MonoBehaviour
                 if (Time.time > m_shootRateTimeStamp)
                 {
                     shootRay();
+                    CanvasUpdate.instance.laserShot();
                     m_shootRateTimeStamp = Time.time + shootRate;
                 }
             }
@@ -52,15 +55,7 @@ public class RayGun : MonoBehaviour
     {
         
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-        if (Physics.Raycast(ray, out hit, range))
-        {
-
-            
-
-        }
-
-        //GameObject laser = Instantiate(m_shotPrefab, transform.position, transform.rotation);
-        //Destroy(laser, 10f);
+        
 
         ShootLaser(transform.position);
 
